@@ -1,13 +1,13 @@
-package com.gyinv.users_service
+package com.gyinv.notification_service
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class UserServiceApplication
+class Main
 
 fun main(args: Array<String>) {
-    runApplication<UserServiceApplication>(*args)
+    runApplication<Main>(*args)
 
-    println("Users service is running...");
+    println("Notification service is running...");
 }
